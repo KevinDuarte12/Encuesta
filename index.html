@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+        <title>Encuesta</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+   <div class="container">
+    <header class="header">
+        <h1 id="title" class="text-center">Encuesta sobre videojuegos</h1>
+        <p id="description"class="description text-center"><i>encuesta esta saber que tipos juegos le gusta y cuanto dedican a los videojuegos</i></p>
+    </header>
+    
+        <form id="survey-form">
+            <div class="form-group">
+            <label for="name" id="name-label">Name</label>
+            
+            <input id="name" name="name" placeholder="type your name" required type="text" class="form-control"></input>
+        </div>
+            
+            <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            
+            <input id="email" name="email" placeholder="type your email" required type="text" class="form-control"></input>
+        </div>
+           
+            <div class="form-group">
+            <label for="number" id="number-label">Number</label>
+            
+            <input id="number" name="number" placeholder="type your age" required type="number" min="16"
+                max="40" class="form-control"></input>
+    </div>
+                
+                <div class="form-group">
+            <p>Escoja su ocupacion que tiene actualmente</p>
+            
+            <select id="dropdown" class="form-control">
+                <option value="Estuadiente">Estuadiente</option>
+                <option value="Trabajador">Trabajador</option>
+                <option value="Universitario">Universitario</option>
+                <option value="Pasante">Pasante</option>
+                <option value="Ninguno de los anteriores">Ninguno de los anteriores</option>
+            </select>
+        </div>
+            
+            <div class="form-group">
+            <label for="juego" id="juego">Que tipo de juegos le gusta jugar</label>
+            
+            <input id="juego" type="radio" name="juego" value="Battleroyale" class="input-radio">Battleroyale</input>
+            
+        
+            <label for="juego" id="juego"></label>
+            
+            <input id="juego" type="radio" name="juego" value="Deporte"class="input-radio">Deporte</input>
+            
+    
+            <label for="juego" id="juego"></label>
+            
+            <input id="juego" type="radio" name="juego" value="Aventura" class="input-radio">Aventura</input>
+            
+            <label for="juego" id="juego"></label>
+            
+            <input id="juego" type="radio" name="juego" value="Estrategico" class="input-radio">Estrategico</input>
+            
+            <label for="juego" id="juego"></label>
+            
+            <input id="juego" type="radio" name="juego" value="Accion" class="input-radio">Accion</input>
+            
+            </div>
+            <div class="form-group">
+            <p>Escoja en que dispositivo juega actualmente o que habitalmente lo
+                hace</p>
+                
+            <select id="dropdown" class="form-control">
+                <option value="Mobile">Mobile</option>
+                <option value="Pc">Pc</option>
+                <option value="Consola">Consola "Xbox PlayStation"</option>
+                <option value="Miniconsola">Nitendo Switch</option>
+                <option value="Ninguno de los anteriores">Ninguno de los anteriores</option>
+            </select>
+            
+        </div>
+        <div class="form-group">
+           <p>Cuanto tiempo le dedica a los juegos</p>
+            
+            <input class="input-checkbox" id="checkbox" type="checkbox" name="horario" value="1 hora">1 hora</input>
+            
+            <input class="input-checkbox" id="checkbox" type="checkbox" name="horario" value="1 -2 horas">1 - 2 horas</input>
+            
+            <input class="input-checkbox" id="checkbox" type="checkbox" name="horario" value="2 -3 horas">2 -3 horas</input>
+           
+            <input class="input-checkbox" id="checkbox" type="checkbox" name="horario" value="mas de 3 horas">mas de 3 horas</input>
+            
+        </div>
+
+<div class="form-group">
+    <p>Algunos comentarios o sugerencia sobre nuestra encuesta</p>
+    <textarea
+      id="comments"
+      class="input-textarea"
+      name="comment"
+      placeholder="Sugerencias..."></textarea>
+    
+</div>
+<div class="form-group">
+            <input id="submit" type="submit" value="enviar encuesta" class="submit-button"></input>
+        </div>
+    
+        </form>
+    </div> 
+    
+</body>
+
+
+
+</html>
